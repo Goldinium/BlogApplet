@@ -12,7 +12,6 @@
     - [Prerequisites ](#prerequisites-)
   - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
-  - [❓ FAQ ](#-faq-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show Your Support ](#️-show-your-support-)
   - [📜 License ](#-license-)
@@ -23,8 +22,9 @@ BlogApplet is a basic website buit on Ruby on Rails framework, it gives users fu
 
 ## 🛠 Tech-stack <a name="tech-stack"></a>
 
-Ruby on Rails - RoR
-Postgres DB
+[Ruby on Rails - RoR](https://www.ruby-lang.org/)
+
+[Postgres DB](https://www.postgresql.org/)
 
 ## Key Features <a name="key-features"></a>
 - [x] **Rails new (setup)**
@@ -73,15 +73,6 @@ Developed by:
 👤 **Ben**
 -   GitHub: [Goldinium](https://github.com/Goldinium)
 
-## ❓ FAQ <a name="faq"></a>
-
-*Q: Is there a plan to add more features to this application?*
-A: Yes, the author has plans to enhance this application's capabilities. One upcoming feature is to make the application executable via tactil, providing more convenience and accessibility to users.
- 
-
-*Q: Where can I find more information about the Ruby programming language?*
-A: For more information about Ruby, its features, and its community, visit the official [Ruby website](https://www.ruby-lang.org/).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -94,4 +85,4 @@ If you find this project helpful, consider giving it a ⭐️ to show your suppo
 
 ## 📜 License <a name="license"></a>
 
-This project is licensed under the MIT License - you can click here to have more details [MIT](LICENSE.md).
+This project is licensed under the MIT License - you can click here to have more details [MIT](LICENSE).
