@@ -66,4 +66,6 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem "rspec", "~> 3.12"
+gem 'rspec', '~> 3.12'
+
+gem "rubocop", "~> 1.58"
