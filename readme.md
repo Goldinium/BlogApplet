@@ -7,12 +7,14 @@
   - [📖 BlogApplet ](#-blog_app-)
   - [🛠 Tech-stack ](#-tech-stack-)
   - [Key Features ](#key-features-)
+  - [Future Features ](#future-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup ](#setup-)
     - [Prerequisites ](#prerequisites-)
   - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
+  - [Acknowledgements](#-Acknowledgements-)
   - [⭐️ Show Your Support ](#️-show-your-support-)
   - [📜 License ](#-license-)
 
@@ -29,6 +31,10 @@ BlogApplet is a basic website buit on Ruby on Rails framework, it gives users fu
 ## Key Features <a name="key-features"></a>
 - [x] **Rails new (setup)**
 - [x] **Data Model**
+
+## Future Features <a name="future-features"></a>
+- [x] **Live video streaming**
+- [x] **Login**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -76,6 +82,10 @@ Developed by:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/Blog_App/issues) and contribute to the project.
+
+## Acknowledgements <a name="Acknowledgements"></a>
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/Blog_App/issues) and contribute to the project.
 
