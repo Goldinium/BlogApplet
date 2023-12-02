@@ -87,7 +87,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Acknowledgements <a name="Acknowledgements"></a>
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/Blog_App/issues) and contribute to the project.
+I would like to thank Goku and my cat
 
 ## ⭐️ Show Your Support <a name="support"></a>
 
