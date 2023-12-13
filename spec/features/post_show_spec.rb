@@ -44,5 +44,4 @@ RSpec.feature 'PostShowCommentsAndLikes', type: :feature do
   it 'shows the post body' do
     expect(page).to have_content(post.content)
   end
-
 end
