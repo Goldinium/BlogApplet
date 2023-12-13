@@ -26,9 +26,9 @@ RSpec.feature 'UserShowPostsAndNavigation', type: :feature do
   end
 
   it 'redirects to post show page when a post is clicked' do
-    #puts "Debug: first_post ID is #{first_post.id}"
+    # puts "Debug: first_post ID is #{first_post.id}"
     find(:link, first_post.title, match: :first).click
-    #puts "Debug: Current path is #{page.current_path}"
+    # puts "Debug: Current path is #{page.current_path}"
     expect(page).to have_current_path(user_post_path(user, first_post))
   end
 end
