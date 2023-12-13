@@ -8,6 +8,6 @@ class User < ApplicationRecord
 
   # Personalized method
   def three_most_recent_posts
-    posts.order(created_at: :desc).limit(3)
+    posts.includes(:comments).order(created_at: :desc).limit(3)
   end
 end

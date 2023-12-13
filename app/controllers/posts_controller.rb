@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_action :find_user
 
   def index
-    @posts = @user.posts.page(params[:page]).per(3)
+    @posts = @user.posts.includes(:comments, :likes).page(params[:page]).per(3)
   end
 
   def create
@@ -16,7 +16,7 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = @user.posts.find(params[:id])
+    @post = @user.posts.includes(comments: :author).find(params[:id])
     @next_post = @user.posts.where('id > ?', @post.id).first
     @prev_post = @user.posts.where('id < ?', @post.id).last
   end
