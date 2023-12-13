@@ -48,7 +48,6 @@ RSpec.describe 'Testing Post index view, it' do
 
   it 'should redirect to post/show, when a post is clicked.' do
     click_on 'Test2'
-    puts page.current_path
     expect(page.current_path).to eq(user_post_path(@user.id, @post2.id))
   end
 
