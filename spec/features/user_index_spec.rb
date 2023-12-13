@@ -5,12 +5,18 @@ RSpec.describe 'Testing User index view, it', type: :feature do
     @user1 = User.create(name: 'Santiago', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', post_counter: 2)
     @user2 = User.create(name: 'Ben', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', post_counter: 4)
     @user3 = User.create(name: 'Mike', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', post_counter: 8)
-    2.times { |i| Post.create(author_id: @user1.id, title: 'This is a post', content: 'this is a post',
-    comments_counter: (i + 1), likes_counter: 0) }
-    4.times { |i| Post.create(author_id: @user2.id, title: 'This is a post', content: 'this is a post',
-    comments_counter: (i + 1), likes_counter: 0) }
-    8.times { |i| Post.create(author_id: @user3.id, title: 'This is a post', content: 'this is a post',
-    comments_counter: (i + 1), likes_counter: 0) }
+    2.times do |i|
+      Post.create(author_id: @user1.id, title: 'This is a post', content: 'this is a post',
+                  comments_counter: (i + 1), likes_counter: 0)
+    end
+    4.times do |i|
+      Post.create(author_id: @user2.id, title: 'This is a post', content: 'this is a post',
+                  comments_counter: (i + 1), likes_counter: 0)
+    end
+    8.times do |i|
+      Post.create(author_id: @user3.id, title: 'This is a post', content: 'this is a post',
+                  comments_counter: (i + 1), likes_counter: 0)
+    end
     visit '/users'
   end
 
@@ -21,7 +27,7 @@ RSpec.describe 'Testing User index view, it', type: :feature do
   end
 
   it 'can see the number of posts each user has written' do
-    expect(page).to have_content("Number of posts")
+    expect(page).to have_content('Number of posts')
     expect(page).to have_text("Ben\nNumber of posts: 4")
     expect(page).to have_text("Mike\nNumber of posts: 8")
   end
