@@ -79,6 +79,9 @@ Developed by:
 👤 **Ben**
 -   GitHub: [Goldinium](https://github.com/Goldinium)
 
+👤 **Noize**
+-   GitHub: [Arch-Noize](https://github.com/Arch-Noize)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
